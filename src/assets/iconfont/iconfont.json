@@ -1,0 +1,100 @@
+{
+  "id": "3483094",
+  "name": "video",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7873357",
+      "name": "卡口视频",
+      "font_class": "qiakoushipin",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "23237718",
+      "name": "结束录制-line",
+      "font_class": "stop-circle-line",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "7592565",
+      "name": "24gl-volumeHigh",
+      "font_class": "24gl-volumeHigh",
+      "unicode": "ea0c",
+      "unicode_decimal": 59916
+    },
+    {
+      "icon_id": "7592581",
+      "name": "24gf-volumeHigh",
+      "font_class": "24gf-volumeHigh",
+      "unicode": "ea11",
+      "unicode_decimal": 59921
+    },
+    {
+      "icon_id": "18176393",
+      "name": "音量,关",
+      "font_class": "mute-full",
+      "unicode": "ea7d",
+      "unicode_decimal": 60029
+    },
+    {
+      "icon_id": "18176394",
+      "name": "音量,关",
+      "font_class": "mute",
+      "unicode": "ea7e",
+      "unicode_decimal": 60030
+    },
+    {
+      "icon_id": "20584662",
+      "name": "Screenshot",
+      "font_class": "Screenshot",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "537167",
+      "name": "stop",
+      "font_class": "stop",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "592861",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "1512546",
+      "name": "video_light",
+      "font_class": "video_light",
+      "unicode": "e7e9",
+      "unicode_decimal": 59369
+    },
+    {
+      "icon_id": "7573266",
+      "name": "video2",
+      "font_class": "video",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "10564296",
+      "name": "full-screen",
+      "font_class": "full-screen",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "10564297",
+      "name": "full-screen-off",
+      "font_class": "full-screen-off",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "name": "mock_study",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@jiaminghi/data-view": "^2.10.0",
+    "ant-design-vue": "^1.7.8",
+    "axios": "^0.24.0",
+    "bmaplib": "^1.0.1",
+    "BMapLib": "npm:bmaplib@^1.0.1",
+    "core-js": "^3.6.5",
+    "echarts": "^4.9.0",
+    "element-china-area-data": "^5.0.2",
+    "element-ui": "^2.15.6",
+    "fingerprintjs2": "^2.1.4",
+    "html2canvas": "^1.4.1",
+    "js-pinyin": "^0.1.9",
+    "moment": "^2.29.1",
+    "npm": "^8.12.2",
+    "vue": "^2.6.11",
+    "vue-baidu-map": "^0.21.22",
+    "vue-router": "^3.6.5",
+    "vue-video-player": "^5.0.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@bytemd/plugin-breaks": "^1.17.2",
+    "@bytemd/plugin-footnotes": "^1.12.4",
+    "@bytemd/plugin-frontmatter": "^1.17.2",
+    "@bytemd/plugin-gemoji": "^1.17.2",
+    "@bytemd/plugin-gfm": "^1.17.2",
+    "@bytemd/plugin-highlight": "^1.17.2",
+    "@bytemd/plugin-highlight-ssr": "^1.17.2",
+    "@bytemd/plugin-math": "^1.17.2",
+    "@bytemd/plugin-math-ssr": "^1.17.2",
+    "@bytemd/plugin-medium-zoom": "^1.17.2",
+    "@bytemd/plugin-mermaid": "^1.17.2",
+    "@bytemd/vue": "^1.17.2",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "autoprefixer": "^10.4.4",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-transform-require-context": "^0.1.1",
+    "bmaplib.distancetool": "^1.0.2",
+    "browserslist": "^4.20.2",
+    "bytemd": "^1.17.2",
+    "caniuse-lite": "^1.0.30001325",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "fs": "^0.0.1-security",
+    "github-markdown-css": "^5.1.0",
+    "highlight.js": "^11.6.0",
+    "html-loader": "^4.2.0",
+    "image-get": "^1.0.3",
+    "katex": "^0.16.2",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "lint-staged": "^9.5.0",
+    "markdown-loader": "^8.0.0",
+    "marked": "^4.1.1",
+    "mocker-api": "^2.9.5",
+    "mockjs": "^1.1.0",
+    "path": "^0.12.7",
+    "text-loader": "^0.0.1",
+    "turndown": "^7.1.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-api-mocker": "^1.7.6",
+    "xlsx": "^0.18.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "rules": {
+    "generator-star-spacing": "off",
+    "no-tabs": "off",
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "no-irregular-whitespace": "off",
+    "no-debugger": "off"
+  },
+  "externals": {
+    "BMap": "BMap",
+    "BMapLib": "BMapLib"
+  }
+}
